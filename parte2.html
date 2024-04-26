@@ -3,63 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/favicon-tlou.png" type="image/x-icon">
     <title>The Last Of Us</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Possível fonte para utilizar no site
-      
-      <style>
-          @font-face {
-            font-family: TheLastOfUs;
-            src: url('./Fontes/TheLastOfUs.ttf') format('truetype');
-          }
-          body {
-            font-family: TheLastOfUs, Arial, sans-serif; /* Substitua "Arial, sans-serif" pelas fontes de fallback desejadas */
-          }
-        </style> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="parte2.css">
 </head>
 
 <body>
-  <header class="menu">
-    <a href="index.html">
-      <img src="./logo tlou2.png" alt="logo tipo do jogo" title="Logo The Last Of Us"> 
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./parte1.html">PARTE I</a></li>
-        <li><a href="./parte2.html">PARTE II</a></li>
-        <li><a href="./serie.html">SERIE</a></li>
-        <li><a href="./personagens.html">PERSONAGENS</a></li>
-        <li><a href="./comprar.html">COMPRAR</a></li>
-      </ul>
-    </nav>
-  </header>
+    <audio id="audio" autoplay>
+        <source src="./parte1-audio.mp3" type="audio/mp3">
+    </audio>
 
-  <h1 class="alerta">ALERTA DE SPOILER</h1>
-  <img src="./ellie1.webp" alt="imagem contendo ellie em um ambiente aberto com grama alta e um muro" title="Ellie">
-  <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendamos não prosseguir com a leitura 🙈</h3>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="./imagens/logo-tlou2.png" alt="logotipo do jogo" title="Logo The Last Of Us"></a>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="./parte1.html">PARTE I</a></li>
+          <li><a href="./parte2.html">PARTE II</a></li>
+          <li><a href="./serie.html">SÉRIE</a></li>
+          <li><a href="./personagens.html">PERSONAGENS</a></li>
+          <li><a href="./comprar.html">COMPRAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
 
-  <p class="pag1">"The Last of Us Part II" é um videogame de ação e aventura desenvolvido pela Naughty Dog e lançado em 2020 para o console PlayStation 4. O jogo é uma sequência direta de "The Last of Us", continuando a história pós-apocalíptica de Joel e Ellie em um mundo devastado por uma infecção fúngica que transforma humanos em criaturas hostis chamadas de infectados.</p>
+  <main>
+
+    <h1>ALERTA DE SPOILER</h1>
+    <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendamos não prosseguir com a leitura 🙈</h3>
+    <img src="./imagens/ellie1.webp" alt="imagem contendo ellie em um ambiente aberto com grama alta e um muro" title="Ellie" class="alerta1">
+    <p class="pag1">"The Last of Us Part II" é um videogame de ação e aventura desenvolvido pela Naughty Dog e lançado em 2020 para o console PlayStation 4. O jogo é uma sequência direta de "The Last of Us", continuando a história pós-apocalíptica de Joel e Ellie em um mundo devastado por uma infecção fúngica que transforma humanos em criaturas hostis chamadas de infectados.</p>
+    
+    <img src="./imagens/elliept2.webp" alt="Ellie e Dina montadas em cavalos" title="Ellie e Dina nos cavalos" class="imagem-1">
+    <p class="pag2">O jogo começa cerca de cinco anos após os eventos do primeiro jogo. Ellie, agora uma jovem adulta, vive na cidade de Jackson, Wyoming, em uma comunidade pacífica de sobreviventes. Ela está em um relacionamento romântico com outra moradora, Dina. A vida em Jackson é relativamente tranquila, com patrulhas regulares para proteger a cidade de ameaças externas.</p> <br><br>
+
+    <p class="pag3">No entanto, a paz é interrompida quando um evento traumático acontece: um grupo de fanáticos religiosos conhecidos como os "Serafitas" ataca a comunidade, resultando em mortes, incluindo a do líder da patrulha, Joel. Consumida pela raiva e desejo de vingança, Ellie embarca em uma jornada para Seattle com Dina e seu amigo Jesse para caçar e matar os responsáveis pela morte de Joel.</p>
+  <img src="./imagens/joel-encurralado.avif" alt="joel cercado pelos serafitas" title="Joel cercado pelos serafitas" class="imagem-2">
   
-  <p class="pag2">O jogo começa cerca de cinco anos após os eventos do primeiro jogo. Ellie, agora uma jovem adulta, vive na cidade de Jackson, Wyoming, em uma comunidade pacífica de sobreviventes. Ela está em um relacionamento romântico com outra moradora, Dina. A vida em Jackson é relativamente tranquila, com patrulhas regulares para proteger a cidade de ameaças externas.</p>
-
-  <img src="./elliept2.webp" alt="">
-
-  <p class="pag3">No entanto, a paz é interrompida quando um evento traumático acontece: um grupo de fanáticos religiosos conhecidos como os "Serafitas" ataca a comunidade, resultando em mortes, incluindo a do líder da patrulha, Joel. Consumida pela raiva e desejo de vingança, Ellie embarca em uma jornada para Seattle com Dina e seu amigo Jesse para caçar e matar os responsáveis pela morte de Joel.</p>
-  <img src="./joel-encurralado.avif" alt="">
-
   <p class="pag4">Em Seattle, Ellie e seus companheiros enfrentam vários desafios, incluindo grupos hostis de sobreviventes, bem como os Serafitas e um grupo militar chamado WLF (Wolves). Durante sua busca por vingança, Ellie descobre a verdade sobre os Serafitas e seus líderes, bem como sobre os eventos que levaram à morte de Joel.</p>
-  <img src="./ellie-seattle-cavalo.jpeg" alt="">
+  <img src="./imagens/ellie-seattle-cavalo.jpeg" alt="Ellie montada em um cavalo na cidade de Seattle" title="ellie montada em um cavalo na cidade de Seattle" class="imagem-3">
+  
+  <p class="pag4">Conforme a história avança, o jogador também assume o controle de Abby, uma soldada do WLF que tem suas próprias razões para buscar vingança. A narrativa intercala entre as perspectivas de Ellie e Abby, revelando a complexidade das motivações e a natureza ambígua do conflito entre as duas personagens.</p>
+  <img src="./imagens/abby-e-cara.jpeg" alt="Abby conversando com Owen" title="Abby e Owen" class="imagem-4">
 
-  <p class="abby">Conforme a história avança, o jogador também assume o controle de Abby, uma soldada do WLF que tem suas próprias razões para buscar vingança. A narrativa intercala entre as perspectivas de Ellie e Abby, revelando a complexidade das motivações e a natureza ambígua do conflito entre as duas personagens.</p>
-  <img src="abby e cara.jpeg" alt="">
-  <img src="./abby.jpeg" alt="">
+  <p class="pag5">À medida que o jogo progride, Ellie e Abby enfrentam desafios morais e emocionais, confrontando o custo da vingança e o peso do perdão. Suas jornadas convergem em um confronto final devastador que força Ellie a confrontar as consequências de suas escolhas e decidir o que realmente importa para ela.</p>
+  
+  <img src="./imagens/ellie-abby.jpeg" alt="Ellie armada com as mãos erguidas para o alto se rendendo" title="Ellie se rendendo" class="imagem-5">
+  <img src="./imagens/confronto.avif" alt="Ellie e Abby lutando na beira da praia em um dia nublado" title="Abby e Ellie lutando" class="imagem-6">
 
-  <p class="confronto">À medida que o jogo progride, Ellie e Abby enfrentam desafios morais e emocionais, confrontando o custo da vingança e o peso do perdão. Suas jornadas convergem em um confronto final devastador que força Ellie a confrontar as consequências de suas escolhas e decidir o que realmente importa para ela.</p>
-  <img src="./ellie-abby.jpeg" alt="">
-  <img src="./confronto.avif" alt="">
+  <p class="pag6">O jogo termina com Ellie retornando a Jackson, onde ela confronta as repercussões de suas ações e busca reconciliar-se com seu passado e com as pessoas ao seu redor. Embora o futuro permaneça incerto, Ellie finalmente encontra uma medida de paz consigo mesma, marcando o fim de sua jornada através do mundo pós-apocalíptico de "The Last of Us Part II".</p>
 
-  <p class="final">O jogo termina com Ellie retornando a Jackson, onde ela confronta as repercussões de suas ações e busca reconciliar-se com seu passado e com as pessoas ao seu redor. Embora o futuro permaneça incerto, Ellie finalmente encontra uma medida de paz consigo mesma, marcando o fim de sua jornada através do mundo pós-apocalíptico de "The Last of Us Part II".</p>
-  <img src="./casa.jpeg" alt="">
-  <img src="./violao.webp" alt="">
-<footer class="direitos">Este site foi desenvolvido por Oto Sales - Todos os direitos reservados</footer>
+  
+  <img src="./imagens/casa.jpeg" alt="Ellie olhando para casa onde viveu com Dina" title="Ellie olhando para casa" class="imagem-7">
+  
+  <div class="grid-container">
+    <div class="grid-row">
+        <div class="grid-item">
+            <a href="./imagens/abby2.jpeg" target="_blank">
+                <img src="./imagens/abby2.jpeg" alt="Abby sentada" title= "Abby" class="img-serie">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="./imagens/dina.webp" target="_blank">
+                <img src="./imagens/dina.webp" alt="Dina olhando Ellie tocar violão" class="img-serie">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="./imagens/ellie-violao.jpeg" target="_blank">
+                <img src="./imagens/ellie-violao.jpeg" alt="Ellie tocando violão na floresta" class="img-serie">
+            </a>
+        </div>
+    </div>
+    <div class="grid-row">
+        <div class="grid-item">
+            <a href="./imagens/ellie1.webp" target="_blank">
+                <img src="./imagens/ellie1.webp" alt="Ellie com o olho ferido" class="img-serie">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="./imagens/jesse.jpg" target="_blank">
+                <img src="./imagens/jesse.jpg" alt="Jesse com os braços cruzados" class="img-serie">
+            </a>
+        </div>
+        <div class="grid-item">
+            <a href="./imagens/violao.webp" target="_blank">
+                <img src="./imagens/violao.webp" alt="Ellie olhando para o violão" class="img-serie">
+            </a>
+        </div>
+    </div>
+</div>
+
+<hr class="footer">
+<footer class="ft">Este site foi desenvolvido <a href="https://www.linkedin.com/in/otosales/" target="_blank">Oto Sales</a> - Todos os direitos reservados</footer>
+</main>
+</body>

@@ -3,62 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/favicon-tlou.png" type="image/x-icon">
     <title>The Last Of Us</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Possível fonte para utilizar no site
-      
-      <style>
-          @font-face {
-            font-family: TheLastOfUs;
-            src: url('./Fontes/TheLastOfUs.ttf') format('truetype');
-          }
-          body {
-            font-family: TheLastOfUs, Arial, sans-serif; /* Substitua "Arial, sans-serif" pelas fontes de fallback desejadas */
-          }
-        </style> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="personagens.css">
 </head>
 
 <body>
-  <header class="menu">
-    <a href="index.html">
-      <img src="./logo.jpg" alt="logo tipo do jogo" title="Logo The Last Of Us"> 
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./parte1.html">PARTE I</a></li>
-        <li><a href="./parte2.html">PARTE II</a></li>
-        <li><a href="./serie.html">SERIE</a></li>
-        <li><a href="./personagens.html">PERSONAGENS</a></li>
-        <li><a href="./comprar.html">COMPRAR</a></li>
-      </ul>
-    </nav>
-  </header>
+  <audio id="audio" autoplay>
+    <source src="./parte1-audio.mp3" type="audio/mp3">
+</audio>
 
-  <h1 class="personagens">Principais Personagens</h1>
-  <h3 class="parte1">Parte 1</h3>
-  <img src="joels.jpeg" alt="">
-  <img src="Ellies.jpeg" alt="">
-  <img src="tess.png" alt="">
-  <img src="bill.jpeg" alt="">
-  <img src="marlenes.jpeg" alt="">
-  <img src="tommys.jpeg" alt="">
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="./imagens/logo.png" alt="logotipo do jogo" title="Logo The Last Of Us"></a>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="./parte1.html">PARTE I</a></li>
+          <li><a href="./parte2.html">PARTE II</a></li>
+          <li><a href="./serie.html">SÉRIE</a></li>
+          <li><a href="./personagens.html">PERSONAGENS</a></li>
+          <li><a href="./comprar.html">COMPRAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
 
-  <h3 class="infec">E não poderiam faltar...</h3>
-  <h3 class="infec">Os Infectados 🧟‍♂️</h3>
-  <img src="corredores.webp" alt="">
-  <img src="clickers.webp" alt="">
-  <img src="baiacu.jpeg" alt="">
-  <img src="./stalker.webp" alt="">
+  <main>
+
+    <h1 class="personagens">Principais Personagens:</h1>
+    <h3 class="parte1">Parte 1</h3>
+    <div class="personagens-container"></div>
+    
+    <div class="personagem">
+      <img src="./imagens/joels.jpeg" alt="imagem de joel" title="Joel">
+      <p>Joel</p>
+    </div>
+    
+    <div class="personagem">
+      <img src="./imagens/Ellies.jpeg" alt="foto de ellie" title="Ellie">
+      <p>Ellie</p>
+    </div>
+<div class="personagem">
+  <img src="./imagens/tess.png" alt="foto de Tess" title="Tess">
+  <p>Tess</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/bill.jpeg" alt="foto de Bill" title="Bill">
+  <p>Bill</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/marlenes.jpeg" alt="foto de Marlene" title="Marlene">
+  <p>Marlene</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/tommys.jpeg" alt="foto de Tommy" title="Tommy">
+  <p>Tommy</p>
+</div>
+
+
 
 <h3 class="parte2">Parte 2</h3>
-<img src="ellie-violao.jpeg" alt="">
-<img src="joel2.webp" alt="">
-<img src="abby2.jpeg" alt="">
-<img src="dina.webp" alt="">
-<img src="jesse.jpg_large" alt="">
-<img src="tommy2.webp" alt="">
+<div class="personagem">
+  <img src="./imagens/joel2.webp" alt="">
+  <p>Joel</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/ellie-violao.jpeg" alt="">
+  <p>Ellie</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/abby2.jpeg" alt="">
+  <p>Abby</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/dina.webp" alt="">
+  <p>Dina</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/jesse.jpg" alt="">
+  <p>Jesse</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/tommy2.webp" alt="">
+  <p>Tommy</p>
+</div>
 
-<h3 class="infectados">Infectados</h3>
-<img src="./infectados2.webp" alt="">
-<footer class="direitos">Este site foi desenvolvido por Oto Sales - Todos os direitos reservados</footer>
+
+<h3 class="infec">E não poderiam faltar... 🧟‍♂️</h3>
+<div class="personagem">
+  <img src="./imagens/corredores.webp" alt="">
+  <p>Corredores</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/clickers.webp" alt="">
+  <p>Clickers</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/baiacu.jpeg" alt="">
+  <p>Baiacu</p>
+</div>
+<div class="personagem">
+  <img src="./imagens/stalker.webp" alt="">
+  <p>Stalker</p>
+</div>
+
+
+</main>
+<hr class="footer">
+<footer class="ft">Este site foi desenvolvido por <a href="https://www.linkedin.com/in/otosales/" target="_blank">Oto Sales</a> - Todos os direitos reservados</footer>

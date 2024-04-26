@@ -3,47 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/favicon-tlou.png" type="image/x-icon">
     <title>The Last Of Us</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Possível fonte para utilizar no site
-      
-      <style>
-          @font-face {
-            font-family: TheLastOfUs;
-            src: url('./Fontes/TheLastOfUs.ttf') format('truetype');
-          }
-          body {
-            font-family: TheLastOfUs, Arial, sans-serif; /* Substitua "Arial, sans-serif" pelas fontes de fallback desejadas */
-          }
-        </style> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="serie.css">
+
 </head>
 
 <body>
-  <header class="menu">
-    <a href="index.html">
-      <img src="./logo.jpg" alt="logo tipo do jogo" title="Logo The Last Of Us"> 
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./parte1.html">PARTE I</a></li>
-        <li><a href="./parte2.html">PARTE II</a></li>
-        <li><a href="./serie.html">SERIE</a></li>
-        <li><a href="./personagens.html">PERSONAGENS</a></li>
-        <li><a href="./comprar.html">COMPRAR</a></li>
-      </ul>
-    </nav>
-  </header>
+    <audio id="audio" autoplay>
+        <source src="./parte1-audio.mp3" type="audio/mp3">
+    </audio>
 
-  <h1 class="alerta">ALERTA DE SPOILER</h1>
-  <img src="./joel-serie.jpeg" alt="" title="Ellie">
-  <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendamos não prosseguir com a leitura 🙈</h3>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="./imagens/logo.png" alt="logotipo do jogo" title="Logo The Last Of Us"></a>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="./parte1.html">PARTE I</a></li>
+          <li><a href="./parte2.html">PARTE II</a></li>
+          <li><a href="./serie.html">SÉRIE</a></li>
+          <li><a href="./personagens.html">PERSONAGENS</a></li>
+          <li><a href="./comprar.html">COMPRAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+  
 
-  <p class="descricao">The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção. O vírus transforma pessoas em canibais e se espalha rapidamente com uma simples mordida. Algumas décadas depois, os poucos sobreviventes que restaram vivem viajando ou em quarentenas protegidas por oficiais do governo. Este é o cenário em que acompanhamos Joel (Pedro Pascal), um sobrevivente durão que é contratado para levar a jovem Ellie (Bella Ramsey) para fora da zona de quarentena opressiva onde vive. Os dois devem encontrar um grupo de rebeldes paramilitares que se rebelou contra as autoridades. Porém, eles descobrem no caminho que Ellie está possivelmente infectada com o vírus, apesar da jovem não apresentar os sintomas recorrentes da doença. Por conta disso, eles acreditam que a imunidade de Ellie pode ser a chave para encontrar a cura do vírus e potencialmente salvar a humanidade.</p>
-  <img src="./joel-ellie-serie1.webp" alt="">
-  <img src="./joel-ellie-paisagem1.png" alt="">
-  <img src="./ellie-sentada.jpeg" alt="">
-  <img src="./agachados.jpeg" alt="">
-  <img src="./hospital-serie.jpeg" alt="">
-  <img src="./riley-serie.jpeg" alt="">
-  <footer class="direitos">Este site foi desenvolvido por Oto Sales - Todos os direitos reservados</footer>
+  <main>
+    <h1 class="alerta">ALERTA DE SPOILER ⚠️</h1>
+    <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendo não prosseguir com a leitura 🙈</h3>
+    <img src="./imagens/joel-serie.jpeg" alt="foto de Joel" title="Joel" class="spoiler">
+    
+    <p class="descricao">The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.</p> <br>
+    <p class="descricao">O vírus transforma pessoas em canibais e se espalha rapidamente com uma simples mordida. Algumas décadas depois, os poucos sobreviventes que restaram vivem viajando ou em quarentenas protegidas por oficiais do governo. Este é o cenário em que acompanhamos Joel (Pedro Pascal), um sobrevivente durão que é contratado para levar a jovem Ellie (Bella Ramsey) para fora da zona de quarentena opressiva onde vive.</p> <br>
+    <p class="descricao">Os dois devem encontrar um grupo de rebeldes paramilitares que se rebelou contra as autoridades. Porém, eles descobrem no caminho que Ellie está possivelmente infectada com o vírus, apesar da jovem não apresentar os sintomas recorrentes da doença. <br><br>Por conta disso, eles acreditam que a imunidade de Ellie pode ser a chave para encontrar a cura do vírus e potencialmente salvar a humanidade.</p>  
+    <p class="descricao">De maneira muito semelhante ao jogo, Joel, interpretado por Pedro Pascal, constrói laços profundos com Ellie, e até cogita em voltar para o território onde seu irmão Tommy reside, mas Ellie não aceita. Decide ir até o fim. <br> <br>Ao chegar no hospital e descobrir que Ellie morreria ao tentar gerar a cura, Joel decide impedir a cirurgia e matar todos do hospital. A série termina, exatamente como o jogo. Ellie pergunta a Joel se tudo o que ele disse que aconteceu é verdade, e ele confirma.</p>    
+
+
+    <div class="grid-container">
+      <div class="grid-row">
+          <div class="grid-item">
+              <a href="./imagens/joel-ellie-serie1.webp" target="_blank">
+                  <img src="./imagens/joel-ellie-serie1.webp" alt="" class="img-serie">
+              </a>
+          </div>
+          <div class="grid-item">
+              <a href="./imagens/joel-ellie-paisagem1.png" target="_blank">
+                  <img src="./imagens/joel-ellie-paisagem1.png" alt="" class="img-serie">
+              </a>
+          </div>
+          <div class="grid-item">
+              <a href="./imagens/ellie-sentada.jpeg" target="_blank">
+                  <img src="./imagens/ellie-sentada.jpeg" alt="" class="img-serie">
+              </a>
+          </div>
+      </div>
+      <div class="grid-row">
+          <div class="grid-item">
+              <a href="./imagens/agachados.jpeg" target="_blank">
+                  <img src="./imagens/agachados.jpeg" alt="" class="img-serie">
+              </a>
+          </div>
+          <div class="grid-item">
+              <a href="./imagens/hospital-serie.jpeg" target="_blank">
+                  <img src="./imagens/hospital-serie.jpeg" alt="" class="img-serie">
+              </a>
+          </div>
+          <div class="grid-item">
+              <a href="./imagens/riley-serie.jpeg" target="_blank">
+                  <img src="./imagens/riley-serie.jpeg" alt="" class="img-serie">
+              </a>
+          </div>
+      </div>
+  </div>
+  
+  </main>
+  <hr class="footer">
+  <footer class="ft">Este site foi desenvolvido por <a href="https://www.linkedin.com/in/otosales/" target="_blank">Oto Sales</a> - Todos os direitos reservados.</footer>
+  </body>  

@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: 20px;
+
+}
+
+#audio {
+    display: none;
+}
+
+header {
+    display: flex; /* Cria um flex container para alinhar os itens horizontalmente */
+    justify-content: space-between; /* Alinha os itens ao longo do eixo principal (horizontalmente) com espaçamento uniforme */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 20px; /* Adiciona algum espaço interno ao cabeçalho, opcional */
+}
+
+.logo img {
+    width: 128px; /* Define a largura da imagem, ajuste conforme necessário */
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.half {
+    width: 50%;
+}
+
+main h1, main h3, main img {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+main h1, main h3 {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+main .personagens {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+main .parte1 {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.personagem {
+    display: inline-block;
+    width: 30%; /* Define a largura das divs para ocupar 30% do espaço disponível */
+    text-align: center; /* Alinha o texto (nome do personagem) ao centro */
+    margin: 10px; /* Adiciona margem entre as divs */
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+
+.personagem img {
+    width: 100%; /* Faz com que as imagens ocupem 100% da largura da div */
+    height: auto;
+    max-height: 200px;
+}
+
+main .parte2 {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+main .infec {
+    display: flex;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.ft a {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.ft {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main .footer {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+

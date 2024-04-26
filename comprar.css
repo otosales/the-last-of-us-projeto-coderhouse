@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: 20px;
+
+}
+
+#audio {
+    display: none;
+}
+
+header {
+    display: flex; /* Cria um flex container para alinhar os itens horizontalmente */
+    justify-content: space-between; /* Alinha os itens ao longo do eixo principal (horizontalmente) com espaçamento uniforme */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 20px; /* Adiciona algum espaço interno ao cabeçalho, opcional */
+}
+
+.logo img {
+    width: 128px; /* Define a largura da imagem, ajuste conforme necessário */
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.half {
+    width: 50%;
+}
+
+main h1, main h3, main img {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+main h1, main h3 {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.comprar {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.descricao {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.opcao-site img{
+    transition: transform 0.3s ease;
+}
+
+.opcao-site img:hover {
+    transform: scale(1.1);
+}
+.opcao {
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.opcao a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto dos links */
+}
+
+.opcao img {
+    width: 350px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.opcao .logo {
+    max-width: 100%;
+}
+
+.opcao p {
+    margin: 0; /* Remove margem padrão do parágrafo */
+}
+
+
+
+
+.ft a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ft {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+main .footer {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}

@@ -3,79 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/favicon-tlou.png" type="image/x-icon">
     <title>The Last Of Us</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Possível fonte para utilizar no site
-      
-      <style>
-          @font-face {
-            font-family: TheLastOfUs;
-            src: url('./Fontes/TheLastOfUs.ttf') format('truetype');
-          }
-          body {
-            font-family: TheLastOfUs, Arial, sans-serif; /* Substitua "Arial, sans-serif" pelas fontes de fallback desejadas */
-          }
-        </style> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="parte1.css">
 </head>
 
 <body>
-  <header class="menu">
-    <a href="index.html">
-      <img src="./logo tlou1.png" alt="logo tipo do jogo" title="Logo The Last Of Us"> 
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./parte1.html">PARTE I</a></li>
-        <li><a href="./parte2.html">PARTE II</a></li>
-        <li><a href="./serie.html">SERIE</a></li>
-        <li><a href="./personagens.html">PERSONAGENS</a></li>
-        <li><a href="./comprar.html">COMPRAR</a></li>
-      </ul>
-    </nav>
-  </header>
+  <audio id="audio" autoplay>
+    <source src="./parte1-audio.mp3" type="audio/mp3">
+</audio>
 
-  <h1 class="alerta">ALERTA DE SPOILER</h1>
-  <img src="./ellie parte 1.png" alt="">
-  <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendamos não prosseguir com a leitura 🙈</h3>
-
-  <p class="pag1">"The Last of Us" é uma jornada emocional e intensa que segue Joel, um homem marcado pela perda, e Ellie, uma adolescente corajosa, em um mundo pós-apocalíptico devastado por uma infecção que transformou grande parte da população em criaturas hostis. Aqui está um resumo dos principais acontecimentos do jogo:</p>
-  <p class="prologo"><strong>Prólogo:</strong> O jogo começa mostrando a vida de Joel antes do surto, incluindo a morte de sua filha, Sarah, durante os primeiros estágios da infecção.</p>
-  <img src="./joel e sarah feridos.jpeg" alt="Joel carregando Sarah" title="momento do jogo onde Joel carrega Sarah">
-  <p class="anosdepois"><strong>20 anos depois:</strong>  Joel agora vive em uma zona de quarentena militar em Boston, onde ele trabalha como contrabandista, fazendo entregas de mercadorias ilegais.</p>
-  <img src="./joel .jpeg" alt="foto de Joel" title="Joel">
-  <p class="missao"></p><strong>Missão:</strong> Joel é contratado por uma milícia rebelde chamada Fireflies para escoltar Ellie, uma jovem de 14 anos, para fora da cidade. Ellie é imune à infecção e eles acreditam que ela pode ser a chave para encontrar uma cura.
-  <p class="viagem"><strong>Viagem:</strong> Joel relutantemente concorda em levar Ellie para encontrar os Fireflies. Ao longo da jornada, eles enfrentam diversos perigos, incluindo infectados, sobreviventes hostis e forças militares.</p>
-  <img src="./joel e ellie no cavalo.webp" alt="foto de Joel e Ellie em um cavalo" title="momento em que Joel e Ellie se despedem de Tommy e irão partir a cavalo">
-  <p class="desenvolvimento"><strong>Desenvolvimento de Laços:</strong> Durante a jornada, Joel e Ellie desenvolvem um vínculo forte e afetuoso, com Ellie se tornando uma figura de substituição para a filha que Joel perdeu.</p>
-  <img src="./joel e ellie no carro.webp" alt="foto de Joel dirigindo e Ellie no banco de trás" title="momento em que Joel e Ellie conversam enquanto viajam em um carro">
-  <p class="revelacoes"><strong>Revelações: </strong>Joel descobre que os Fireflies planejam usar Ellie para desenvolver uma cura, o que exigiria sacrificar sua vida. Ele se recusa a deixar Ellie ser sacrificada.</p>
-  <img src="./ellie no hospitla.webp" alt="ellie inconsciente no hospital" title="Momento em que Ellie está desacordada para fazer a cirurgia">
-  <p class="fuga"><strong>Fuga: </strong>Joel resgata Ellie dos Fireflies e eles escapam juntos, enfrentando uma batalha feroz contra os militares e os Fireflies no processo.</p>
-  <img src="./joel resgata ellie.avif" alt="foto de Joel carregando Ellie" title="Momento em que Joel carrega Ellie no hospital">
-  <p class="final"><strong>Final: </strong>O jogo termina com Joel mentindo para Ellie sobre o que aconteceu, dizendo a ela que os Fireflies já haviam encontrado muitos outros imunes e que nenhum deles era uma cura. Ellie parece desconfiada, mas aceita a história de Joel.</p>
-  <img src="./momentofinal.png" alt="foto de Joel conversando com Ellie em uma montanha" title="Momento em que Ellie pergunta sobre o que de fato ocorreu no hospital">
-
-  <h2 class="extra">NÃO ACABA POR AÍ... </h2>
-  <h3 class="left">LEFT BEHIND</h3>
-  <p class="intro">"Left Behind" é uma expansão autônoma para "The Last of Us", lançada como conteúdo para download adicional. O jogo expande a narrativa principal, focando em eventos anteriores e posteriores ao enredo principal.</p>
-  <p class="antes"><strong>Antes do Jogo Principal: </strong>"Left Behind" se passa em duas linhas do tempo diferentes. Uma delas ocorre antes dos eventos de "The Last of Us" e a outra ocorre durante uma lacuna na narrativa principal.</p>
-
-  <p class="anterior"><strong>História Anterior: </strong>Nessa parte, a narrativa se concentra em Ellie antes de conhecer Joel. Ela está em uma zona de quarentena militar em Boston e faz amizade com uma garota chamada Riley, que é sua melhor amiga. Juntas, elas exploram um shopping abandonado, relembram memórias do passado e confrontam os perigos do mundo pós-apocalíptico.</p>
-  <img src="./lb1.png" alt="ellie e riley no shopping">
-  
-  <p class="lacuna"><strong>Lacuna na História Principal: </strong>Na segunda linha do tempo, o jogo se passa durante um momento em que Joel está ferido e inconsciente. Ellie se vê sozinha em uma loja de departamentos abandonada, lutando para encontrar suprimentos médicos para salvar Joel. Durante esse período, ela lida com os desafios do ambiente hostil e reflete sobre suas emoções e conexões com Joel.</p>
-  <img src="./ellie sozinha.webp" alt="ellie com arco e flecha">
-  <img src="./ellie-mirando.png" alt="ellie segurando arco e flecha mirando em um infectado" title="Momento em que Ellie tenta acertar um infectado com arco e flecha">
-  <img src="./ellie e riley.webp" alt="ellie e riley fazendo careta pra camera">
-  <img src="./mordida.png" alt="foto onde mostra Ellie olhando a marca da mordida" title="Ellie vendo que foi mordida">
-
-  <p class="conclusao">Left Behind é uma adição fantástica ao universo de "The Last of Us". Ela não apenas expande a história, mas também oferece insights emocionantes sobre os personagens e o mundo pós-apocalíptico em que vivem. A narrativa é bem construída, explorando temas como amizade, sobrevivência e sacrifício de uma maneira envolvente.
-
-    Além disso, o jogo mantém a alta qualidade visual e mecânica que é característica da Naughty Dog, proporcionando uma experiência imersiva e emocionante. Os momentos de jogabilidade são complementados por sequências cinematográficas que ajudam a contar a história de forma eficaz.
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="./imagens/logo-tlou1.png" alt="logotipo do jogo" title="Logo The Last Of Us"></a>
+      </div>
+      
+      <nav>
+        <ul>
+          <li><a href="./parte1.html">PARTE I</a></li>
+          <li><a href="./parte2.html">PARTE II</a></li>
+          <li><a href="./serie.html">SÉRIE</a></li>
+          <li><a href="./personagens.html">PERSONAGENS</a></li>
+          <li><a href="./comprar.html">COMPRAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+  <main> 
+    <h1 class="alerta">ALERTA DE SPOILER ⚠️</h1><br><br>
+    <h3 class="atencao">Atenção: Se você nunca jogou e não gosta de spoilers, recomendo não prosseguir com a leitura 🙈</h3>
+    <img src="./imagens/ellie-parte-1.png" alt="Ellie observando" title="momento em que Ellie observa algo" class="imagem-1">
     
-    No geral, "Left Behind" é uma parte essencial da experiência de "The Last of Us" e uma expansão que os fãs do jogo certamente apreciarão.</p>
+    <p class="pag1">"The Last of Us" é uma jornada emocional e intensa que segue Joel, um homem marcado pela perda, e Ellie, uma adolescente corajosa, em um mundo pós-apocalíptico devastado por uma infecção que transformou grande parte da população em criaturas hostis. Aqui está um resumo dos principais acontecimentos do jogo:</p> <br><b></b>
+    
+    <div class="linhaComTexto">
+      <span>Prólogo</span>
+  </div>
   
-  <br>
-  
-  <footer class="ft">Este site foi desenvolvido por Oto Sales - Todos os direitos reservados</footer>
+    <p class="prologo">O jogo começa mostrando a vida de Joel antes do surto, incluindo a morte de sua filha, Sarah, durante os primeiros estágios da infecção.</p>
+    <img src="./imagens/joel-e-sarah-feridos.jpeg" alt="Joel carregando Sarah" title="momento do jogo onde Joel carrega Sarah" class="imagem-2">
+    <p class="anosdepois">20 anos depois, Joel agora vive em uma zona de quarentena militar em Boston, onde ele trabalha como contrabandista, fazendo entregas de mercadorias ilegais.</p>
+    <img src="./imagens/joel.jpeg" alt="foto de Joel" title="Joel" class="imagem-3">
+    <div class="linhaComTexto1">
+      <span>Missão</span>
+  </div>
+    <p class="missao">Joel é contratado por uma milícia rebelde chamada Fireflies para escoltar Ellie, uma jovem de 14 anos, para fora da cidade. Ellie é imune à infecção e eles acreditam que ela pode ser a chave para encontrar uma cura. <br>Joel relutantemente concorda em levar Ellie para encontrar os Fireflies. Ao longo da jornada, eles enfrentam diversos perigos, incluindo infectados, sobreviventes hostis e forças militares. <br></p>
+
+    <img src="./imagens/joel-e-ellie-no-cavalo.webp" alt="foto de Joel e Ellie em um cavalo" title="momento em que Joel e Ellie se despedem de Tommy e irão partir a cavalo">
+
+    <div class="linhaComTexto2">
+      <span>Desenvolvimento de Laços</span>
+  </div>
+
+    <p class="desenvolvimento">Durante a jornada, Joel e Ellie desenvolvem um vínculo forte e afetuoso, com Ellie se tornando uma figura de substituição para a filha que Joel perdeu. Ellie possui uma personalidade forte ao mesmo tempo que demonstra ter medo de ficar sozinha. Em todo o tempo, ela está disposta a ajudar e até proteger Joel.</p>
+    <img src="./imagens/ellie-arma1.jpeg" alt="Ellie segurando uma arma enquanto olha pra Joel" title="momento em que Joel passa orientações de tiro a Ellie" class="imagem-4">
+
+    <div class="linhaComTexto3">
+      <span>Revelações</span>
+  </div>
+    <p class="revelacoes">Joel descobre que os Fireflies planejam usar Ellie para desenvolver uma cura, o que exigiria sacrificar sua vida. Depois de entender a gravidade da situação, lembrar de todos os infectados que mataram, ladrões e criminosos que enfrentaram, ele toma uma decisão...</p>
+    <img src="./imagens/ellie-no-hospital.webp" alt="ellie inconsciente no hospital" title="Momento em que Ellie está desacordada para fazer a cirurgia" class="imagem-5">
+
+    <div class="linhaComTexto4">
+      <span>Fuga</span>
+  </div>
+
+    <p class="fuga">Joel decide não perder Ellie. Ele criou vínculos muito profundos, e não conseguiu imaginar a humanidade curada, sem que ela estivesse viva. Com isso, Joel resgata Ellie dos Fireflies e eles escapam juntos, enfrentando uma batalha feroz contra os militares e os Fireflies no processo.</p>
+    
+    <img src="./imagens/joel-resgata-ellie.jpeg" alt="foto de Joel carregando Ellie" title="Momento em que Joel carrega Ellie no hospital" class="imagem-6">
+    
+    <div class="linhaComTexto5">
+      <span>Final</span>
+    </div>
+    
+    <p class="final">O final da Parte 1 de The Last Of Us termina com Joel e Ellie caminhando após a fuga do hospital. Joel mente para Ellie sobre o que aconteceu, dizendo a ela que os Fireflies já haviam encontrado muitos outros imunes e que nenhum deles era uma cura. Ellie parece desconfiada, mas aceita a história de Joel.</p>
+    <img src="./imagens/momentofinal.png" alt="foto de Joel conversando com Ellie em uma montanha" title="Momento em que Ellie pergunta sobre o que de fato ocorreu no hospital" class="imagem-7">
+    
+    <h2 class="extra">NÃO ACABA POR AÍ... </h2>
+
+    <h3 class="left">LEFT BEHIND</h3>
+    
+    <p class="intro">"Left Behind" é uma expansão autônoma para "The Last of Us", lançada como conteúdo para download adicional. O jogo expande a narrativa principal, focando em eventos anteriores e posteriores ao enredo principal.</p><br>
+    
+    <p class="antes">Antes do Jogo Principal:"Left Behind" se passa em duas linhas do tempo diferentes. Uma delas ocorre antes dos eventos de "The Last of Us" e a outra ocorre durante uma lacuna na narrativa principal.</p> <br>
+    
+    <p class="anterior">História Anterior: Nessa parte, a narrativa se concentra em Ellie antes de conhecer Joel. Ela está em uma zona de quarentena militar em Boston e faz amizade com uma garota chamada Riley, que é sua melhor amiga. Juntas, elas exploram um shopping abandonado, relembram memórias do passado e confrontam os perigos do mundo pós-apocalíptico.</p>
+    <img src="./imagens/lb1.png" alt="ellie e riley no shopping" class="imagem-8">
+    
+    <p class="lacuna"><strong>Lacuna na História Principal: </strong>Na segunda linha do tempo, o jogo se passa durante um momento em que Joel está ferido e inconsciente. Ellie se vê sozinha em uma loja de departamentos abandonada, lutando para encontrar suprimentos médicos para salvar Joel. Durante esse período, ela lida com os desafios do ambiente hostil e reflete sobre suas emoções e conexões com Joel.</p> <br> <br>
+    <img src="./imagens/ellie-sozinha.webp" alt="ellie com arco e flecha" title="Ellie mirando em alguém" class="imagem-9">
+
+    <img src="./imagens/ellie-mirando.png" alt="ellie segurando arco e flecha mirando em um infectado" title="Momento em que Ellie tenta acertar um infectado com arco e flecha" class="imagem-10">
+    <p class="conclusao">Em suas memórias, ela se recorda dos momentos em que viveu com Riley no shopping e de como ela foi atacada por um infectado, carregando para sempre a cicatriz em seu antebraço. <br> <br> <br>
+    <img src="./imagens/ellie-e-riley.webp" alt="ellie e riley fazendo careta pra camera" class="imagem-11">
+    <img src="./imagens/mordida.png" alt="foto onde mostra Ellie olhando a marca da mordida" title="Ellie vendo que foi mordida" class="imagem-12">
+    <p class="conclusao2">Left Behind é uma adição fantástica ao universo de "The Last of Us". Ela não apenas expande a história, mas também oferece insights emocionantes sobre os personagens e o mundo pós-apocalíptico em que vivem. A narrativa é bem construída, explorando temas como amizade, sobrevivência e sacrifício de uma maneira envolvente.</p> <br>
+ 
+      
+    <p class="conclusao3">Além disso, o jogo mantém a alta qualidade visual e mecânica que é característica da Naughty Dog, proporcionando uma experiência imersiva e emocionante. Os momentos de jogabilidade são complementados por sequências cinematográficas que ajudam a contar a história de forma eficaz. <br> No geral, "Left Behind" é uma parte essencial da experiência de "The Last of Us" e uma expansão que os fãs do jogo certamente apreciarão.</p>
+      
+      <br>
+      
+      <hr class="footer">
+      <footer class="ft">Este site foi desenvolvido por <a href="https://www.linkedin.com/in/otosales/" target="_blank">Oto Sales</a> - Todos os direitos reservados</footer>
+
+    </main>
+
+    </body>
