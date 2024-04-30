@@ -11,9 +11,60 @@ body {
 
 }
 
-#audio {
-    display: none;
+#audioPlayer {
+    width: 100%;
+    margin-top: 20px;
 }
+
+#audioPlayer::-webkit-media-controls {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #audioPlayer::-webkit-media-controls-enclosure {
+    background-color: transparent;
+  }
+
+  #audioPlayer::-webkit-media-controls-volume-slider {
+    width: 100px;
+    color: white;
+  }
+
+  #audioPlayer::-webkit-media-controls-timeline {
+    color: white;
+  }
+
+  #audioPlayer::-webkit-media-controls-current-time-display {
+    color: white;
+  }
+
+  #audioPlayer::-webkit-media-controls-time-remaining-display {
+    color: white;
+  }
+
+  #audioPlayer::-webkit-media-controls-mute-button {
+    color: white;
+  }
+
+  #audioPlayer::-webkit-media-controls-start-button,
+  #audioPlayer::-webkit-media-controls-volume-slider,
+  #audioPlayer::-webkit-media-controls-mute-button {
+    color: white ;
+  }
+
+/* Garantindo que o controle de volume seja sempre visível */
+#audioPlayer::-webkit-media-controls-volume-slider {
+  opacity: 1 !important;
+}
+
+#audioPlayer::-webkit-media-controls,
+#audioPlayer::-webkit-media-controls-panel {
+  color: white !important; /* Altera a cor dos botões e barras deslizantes */
+}
+
 
 header {
     display: flex; /* Cria um flex container para alinhar os itens horizontalmente */
