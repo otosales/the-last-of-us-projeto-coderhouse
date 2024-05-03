@@ -111,6 +111,11 @@ main .atencao {
     font-weight: bold;
 }
 
+main .imagem-1{
+    margin-top: 20px;
+    max-width: 100%;
+}
+
 .half {
     width: 50%;
 }
@@ -225,9 +230,22 @@ main .imagem-7 {
     object-fit: cover; /* Faz com que a imagem mantenha a proporção e cubra completamente o contêiner */
 }
 
+main .trailer {
+    margin-top: 90px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+main iframe {
+    width: 100%;
+    border: none;
+}
+
 .footer {
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .ft a {
