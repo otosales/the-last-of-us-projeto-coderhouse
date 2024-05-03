@@ -95,10 +95,15 @@ nav ul li a {
     font-size: 18px;
 }
 
+main {
+  padding: 0 16px;
+}
+
 main .alerta {
     margin-top: 40px;
     text-align: center;
     font-weight: bold;
+    font-size: 23px;
 }
 
 main .atencao {

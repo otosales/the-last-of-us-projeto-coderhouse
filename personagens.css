@@ -99,6 +99,10 @@ nav ul li a {
     width: 50%;
 }
 
+main {
+    padding: 0 16px;
+}
+
 main h1, main h3, main img {
     opacity: 0;
     animation: fadeIn 4s forwards;
