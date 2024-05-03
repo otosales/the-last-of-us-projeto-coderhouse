@@ -156,6 +156,7 @@ main .pag1 {
 }
 
 main .pag2 {
+    margin-top: 30px;
     text-align: justify;
 }
 
