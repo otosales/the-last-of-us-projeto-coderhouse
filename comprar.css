@@ -65,6 +65,31 @@ body {
   color: white !important; /* Altera a cor dos botões e barras deslizantes */
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column; /* Altera a direção do flex container para coluna */
+      align-items: center; /* Alinha os itens verticalmente */
+    }
+  
+    .logo img {
+      margin: 0 0 0 20px;
+  }
+  
+    nav {
+      margin-top: 20px; /* Adiciona espaço entre o logotipo e o menu */
+    }
+  
+    nav ul {
+      display: flex; /* Altera a exibição da lista para flex */
+      flex-direction: column; /* Altera a direção do flex container para coluna */
+      align-items: center; /* Alinha os itens verticalmente */
+    }
+  
+    nav ul li {
+      display: block; /* Altera a exibição dos itens da lista para bloco */
+      margin: 10px 0; /* Adiciona espaço entre os itens */
+    }
+  }
 
 header {
     display: flex; /* Cria um flex container para alinhar os itens horizontalmente */
@@ -148,6 +173,8 @@ main h1, main h3 {
 }
 .opcao {
     text-align: center; /* Centraliza o conteúdo dentro da div */
+    margin: 0 10px; /* Adiciona margem à esquerda e à direita */
+    
 }
 
 .opcao a {
