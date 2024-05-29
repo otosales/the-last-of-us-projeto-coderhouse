@@ -3,7 +3,7 @@
 Esse projeto foi desenvolvido no curso Carreira de Desenvolvedor Fullstack, no módulo 1 chamado HTML e CSS, da instituição CoderHouse.  
 
 ## 🔥  Introdução
-O site mostra algumas informações e detalhes sobre The Last Of Us, como Parte 1 e Parte 2, Série, Personagens e Onde Comprar. Nesse projeto, foram trabalhados alguns conceitos como HTML Semântico,
+O site mostra algumas informações e detalhes sobre The Last Of Us, como Parte 1 e Parte 2 do Jogo, Série, Personagens e Onde Comprar. Nesse projeto, foram trabalhados alguns conceitos como HTML Semântico,
 Flex Box, Git e GitHub, Responsividade, Acessibilidade, SEO, entre outros.
 
 ### ⚙️   Pré Requisitos
